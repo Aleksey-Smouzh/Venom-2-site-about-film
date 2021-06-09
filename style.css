@@ -1,5 +1,5 @@
 body {
-    background-color:#14131A;
+    
     color: #fff;
     font-family: 'Roboto', sans-serif;
 }
@@ -50,4 +50,48 @@ font-size: 16px;
 line-height: 140%;
 
 color: rgba(255, 255, 255, 0.8);
+}
+
+.button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+   
+text-decoration: none;
+cursor: pointer;
+}
+.button-text, .button-icon{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.button-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    margin-left: 10px;
+
+}
+
+.button-primary{
+    color: #8D0019;
+    background:#fff;
+}
+
+.button-link {
+color: #fff;
+
+}
+.button-group{
+    margin-top: 70px;
+}
+.venom{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.read{
+    background: url('../img/read.png')no-repeat top right ,#14131A url('../img/backgraund.jpeg') no-repeat center / 100%;
+   
 }
